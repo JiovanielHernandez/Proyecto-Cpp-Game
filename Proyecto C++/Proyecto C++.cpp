@@ -32,11 +32,11 @@ int main() {
             numero_secreto = rand() % 100 + 1;
             break;
         default:
-            cout << "Opción invalida. Saliendo del programa." << endl;
+            cout << "Opcion invalida. Saliendo del programa." << endl;
             return 0;
         }
         for (int i = 1; i <= max_intentos; i++) {
-            cout << "Intento" << i << "/" << max_intentos << ". Adivina el numero secreto: ";
+            cout << "Intento" << i << "/" << max_intentos << ". adivina el numero secreto: ";
             cin >> intento;
             if (intento == numero_secreto) {
                 cout << "Adivinaste el numero secreto en " << i << " intentos" << endl;
