@@ -32,14 +32,14 @@ int main() {
             numero_secreto = rand() % 100 + 1;
             break;
         default:
-            cout << "Opción invalida. Saliendo del programa." << endl;
+            cout << "OpciÃ³n invalida. Saliendo del programa." << endl;
             return 0;
         }
         for (int i = 1; i <= max_intentos; i++) {
-            cout << "Intento #" << i << "/" << max_intentos << ". Adivina el numero secreto: ";
+            cout << "Intento" << i << "/" << max_intentos << ". Adivina el numero secreto: ";
             cin >> intento;
             if (intento == numero_secreto) {
-                cout << "¡Adivinaste el numero secreto en " << i << " intentos!" << endl;
+                cout << "Adivinaste el numero secreto en " << i << " intentos" << endl;
                 return 0;
             }
             else if (intento < numero_secreto) {
@@ -53,8 +53,8 @@ int main() {
         break;
     case 2:
         int eleccion_jugador, eleccion_computadora;
-        cout << "Juguemos piedra, papel o tijeras." << endl;
-        cout << "Seleccione una opción:" << endl;
+        cout << "Juguemos a piedra, papel o tijeras." << endl;
+        cout << "Seleccione una opcion:" << endl;
         cout << "1. Piedra" << endl;
         cout << "2. Papel" << endl;
         cout << "3. Tijeras" << endl;
@@ -84,14 +84,14 @@ int main() {
         else if ((eleccion_jugador == 1 && eleccion_computadora == 3) ||
             (eleccion_jugador == 2 && eleccion_computadora == 1) ||
             (eleccion_jugador == 3 && eleccion_computadora == 2)) {
-            cout << "¡Ganaste!" << endl;
+            cout << "Ganaste!" << endl;
         }
         else {
-            cout << "¡Perdiste!" << endl;
+            cout << "Perdiste!" << endl;
         }
         break;
     default:
-        cout << "Opcion inválida. Saliendo del programa." << endl;
+        cout << "Opcion invalida. Saliendo del programa." << endl;
         return 0;
     }
     return 0;
