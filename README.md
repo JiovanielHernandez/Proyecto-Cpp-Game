@@ -9,6 +9,8 @@ Simple Juego Utilizando c++
 
 2: Elegir Juego/Seleccionar Modo
 
+3: Elegir Juego/Seleccionar Modo
+
 ---------------------------
 
 # Version History
