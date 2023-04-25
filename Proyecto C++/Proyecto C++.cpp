@@ -42,11 +42,11 @@ int main() {
                 cout << "opcion invalida. Saliendo del programa." << endl;
                 return 0;
             }
-            // Ciclo que permite al usuario adivinar el número secreto
+            // Ciclo que permite al usuario adivinar el numero secreto
             for (int i = 1; i <= max_intentos; i++) {
                 cout << "Intento " << i << "/" << max_intentos << ". Adivina el numero secreto: ";
                 cin >> intento;
-                // se compara el numero ingresado con el numero secreto y se da la respuesta correspondiente
+                // se compara el numero ingresado con el numero secreto y se da la respuesta
                 if (intento == numero_secreto) {
                     cout << "adivinaste el numero secreto en " << i << " intentos" << endl;
                     break;
@@ -57,7 +57,7 @@ int main() {
                 else {
                     cout << "El numero secreto es menor que " << intento << "." << endl;
                 }
-                // Si se llega al último intento sin haber adivinado el número secreto, se muestra la respuesta
+                // Si llega al ultimo intento sin haber adivinado el numero secreto, se muestra la respuesta
                 if (i == max_intentos) {
                     cout << "no adivinaste el numero secreto. El numero era " << numero_secreto << "." << endl;
                 }
