@@ -1,4 +1,4 @@
-# Proyecto-C-
+# Proyecto-Cpp
 Juego V 1.03
 
 Simple Juego Utilizando c++
