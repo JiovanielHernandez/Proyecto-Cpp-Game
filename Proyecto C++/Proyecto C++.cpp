@@ -7,7 +7,7 @@ using namespace std;
 int main() {
     // variable bool para saber si el usuario quiere jugar de nuevo
     bool jugar_nuevamente = true;
-    // Ciclo principal del juego
+    // ciclo principal del juego
     while (jugar_nuevamente) {
         int opcion;
         // se muestra el menu de opciones
@@ -46,7 +46,7 @@ int main() {
             for (int i = 1; i <= max_intentos; i++) {
                 cout << "Intento " << i << "/" << max_intentos << ". Adivina el numero secreto: ";
                 cin >> intento;
-                // Se compara el número ingresado con el número secreto y se da la respuesta correspondiente
+                // se compara el numero ingresado con el numero secreto y se da la respuesta correspondiente
                 if (intento == numero_secreto) {
                     cout << "adivinaste el numero secreto en " << i << " intentos" << endl;
                     break;
@@ -64,7 +64,7 @@ int main() {
             }
             break;
         case 2:
-            // Variables necesarias para el juego de piedra, papel o tijeras
+            // variables para el juego de piedra, papel o tijeras
             int eleccion_jugador, eleccion_computadora;
             cout << "Juguemos a piedra, papel o tijeras." << endl;
             cout << "Seleccione una opcion:" << endl;
@@ -72,10 +72,10 @@ int main() {
             cout << "2. Papel" << endl;
             cout << "3. Tijeras" << endl;
                 cin >> eleccion_jugador;
-            // Se genera la elección de la computadora de forma aleatoria
+            // Se genera la eleccion de la computadora de forma aleatoria
             srand(time(NULL));
             eleccion_computadora = rand() % 3 + 1;
-            // Se muestra la elección de la computadora
+            // Se muestra la eleccion de la computadora
             switch (eleccion_computadora) {
             case 1:
                 cout << "La computadora eligio piedra." << endl;
@@ -87,7 +87,7 @@ int main() {
                 cout << "La computadora eligio tijeras." << endl;
                 break;
             }
-            // Se compara la elección del jugador y la de la computadora y se muestra el resultado
+            // Se compara la eleccion del jugador y la de la computadora y se muestra un resultado
             if (eleccion_jugador == eleccion_computadora) {
                 cout << "Empate." << endl;
             }
@@ -102,8 +102,8 @@ int main() {
             cout << "Opcion invalida. Saliendo del programa." << endl;
             return 0;
         }
-        // Se pregunta al usuario si quiere jugar de nuevo
-        cout << "Quieres jugar de nuevo? (1 = Si, 0 = No): ";
+        // Se pregunta al usuario si quiere jugar denuevo
+        cout << "Quieres jugar denuevo? (1 = Si, 0 = No): ";
         cin >> jugar_nuevamente;
     }
     return 0;
