@@ -3,6 +3,8 @@ Juego V 1.03
 
 Simple Juego Utilizando c++
 
+Nuestro programa trata de una serie de códigos no tan complejos los cuales forman y efectúan dos minijuegos, uno en el cual debes adivinar de cierto numero a cierto número el numero correspondido que escoja el programa, te ira dejando saber que tan cerca estas de el numero correcto, podrás escoger el nivel de dificultad y depende de esto la cantidad de intentos para adivinar ese número. El otro minijuego por su parte es un simple “PIEDRA, PAPEL O TIJERA”, el cual reacción completamente aleatoria a tu respuesta, con las correspondidas opciones de este minijuego, puedes ganar, perder o inclusive quedar empate.
+
 # Como se utiliza?
 
 0: Elegir Juego/Seleccionar Modo
