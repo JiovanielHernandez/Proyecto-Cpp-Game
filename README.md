@@ -40,7 +40,11 @@ Añadimos un nuevo juego con su respectivo menu.
 
 Version 1.03
 Añadimos loop para jugar constantemente sin tener que cerrar el programa.
+
 Corregimos bugs y ortografias
+
+---------------------------------------------------------------------
+
 
 # License
 Copyright (c) 2002 Jiovaniel Hernandez, Adriel J Rivera
