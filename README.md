@@ -5,6 +5,8 @@ Simple Juego Utilizando c++
 
 # Como se utiliza?
 
+0: Elegir Juego/Seleccionar Modo
+
 1: Elegir Juego/Seleccionar Modo
 
 2: Elegir Juego/Seleccionar Modo
