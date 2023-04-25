@@ -39,7 +39,7 @@ Añadimos un nuevo juego con su respectivo menu.
 --------------------------------------------------------------------
 
 # License
-Copyright (c) 2002 Jiovaniel Hernandez, Adriel Cancel
+Copyright (c) 2002 Jiovaniel Hernandez, Adriel J Rivera
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
